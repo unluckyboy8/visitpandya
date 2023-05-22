@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisitPandya</title>
+    <link rel="shortcut icon" href="../logo/1.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/VisitPandya.css">
+    
+<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+</head>
+<body ondblclick="bdy()">
+
+    <!-- navbar -->
+    <nav id="stick " class="sticky-top" >
+        <div class="container1 ">
+            <div>
+<a class="logo text-decoration-none" >
+    <!-- <img class="logo-item ms-5" src="../logo/VISIT PANDYA-logos_ ().jpeg" alt="" height="50px" width="120px"> -->
+    <h3 class="ms-4 "id="lname">VISIT PANDYA <i class="fa-solid fa-plane fa-beat text-light"></i></h3>
+</a>
+</div>
+<div class="d-flex ">
+    <ul class="m-3 px-3">
+    <li class="list-items"><a href="">Home</a></li>
+    <li class="list-items"><a href="">Map</a></li>
+    <li class="list-items"><a href="">Gallery</a></li>
+    <li class="list-items"><a href="">Rooms </a></li>
+    <li class="list-items"><a href="">Click me</a></li>
+   
+
+</ul>
+
+        </div>
+
+
+        <div class="me-5">
+            <ul>
+<li class="login text-primary me-3" id="point" onclick="controllog()">  <i class="fa-regular fa-user fa-flip"></i> <b>Login</b>  </li>
+<li class="search text-primary me-3"  onclick="search()"> <i class="fa-solid fa-magnifying-glass fa-flip"></i> <b>Search</b></li>
+
+            </ul>
+        </div>
+
+
+</div>
+    </nav>
+
+    <!-- search -->
+<div class="container border bg-light  text-center  p-2"  id="search" >
+
+    <label for="#se"  ></label >
+        <input type="text " placeholder="search your favourite town" name="#se" width="500px" id="#se">
+    
+    </div>
+    
+<!-- login-->
+<div class="container-login    bg-white"   >
+    <div id="login" class="bg-white ">
+    <form action="#"  class="bg-light border border-success rounded border   p-5  " id="" >
+
+    <a href="" class="text-decoration-none"><h2 class="text-center text-info mb-3 display-5 fw-bold">LOGIN</h2></a>
+   <div class="input-group">
+<label for="#email" class="text-danger">Enter Your Email Id:</label>
+<input type="email" name="#email" id="#email" autofocus>
+
+
+   </div>
+    <div class="input-group ">
+<label for="#password " class="text-danger">Enter Your password::</label>
+<input type="password" name="#password" id="#password" >
+<small class="fs-6 mt-3">
+<a href="" class="fs-6 text-decoration-none">Forgotten Password</a><br>
+I Don't Have An Account <button onclick="signin()"> SignIn</button> </a></small>
+<a class="btn btn-outline-secondary text-center text-dark mt-3">Submit</a>
+   </div>
+    
+
+</form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- signin-->
+<div class="border border-info " id="signin">
+    <form action="#" class="bg-light border border-success rounded border  p-5 "  >
+    <a href="" class="text-decoration-none"><h2 class="text-center text-info mb-3 display-5 fw-bold">SIGNIN</h2></a>
+
+
+<div class="input-group">
+    <label for="#fname"class="text-danger">Enter Your User Name:</label>
+<input type="text" name="#name" id="#name">
+</div>
+
+<div class="input-group">
+    <label for="#tele"class="text-danger" >Enter Your Mobile Number:</label>
+    <input type="tel" name="#email" id="#email"  >
+    
+    
+       </div>
+       <div class="input-group">
+        <label for="#age" class="text-danger" >Enter Your Age:</label>
+        <input type="age" name="#age" id="#age"  >
+        
+        
+           </div>
+
+
+
+
+
+   <div class="input-group">
+<label for="#email" class="text-danger">Enter Your Email Id:</label>
+<input type="email" name="#email" id="#email"  >
+
+
+   </div>
+
+   <div class="input-group">
+    <label for="#email" class="text-danger">Enter Your Email Id:</label>
+    <input type="email" name="#email" id="#email"  autofocus>
+    
+    
+       </div>
+
+
+    <div class="input-group ">
+<label for="#password " class="text-danger">Enter Your password::</label>
+<input type="password" name="#password" id="#password" >
+</div>
+
+
+<div class="input-group ">
+    <label for="#password " class="text-danger">Confirm Your password:</label>
+    <input type="password" name="#password" id="#password" >
+
+<small class="fs-6 mt-3">
+
+I Already Have An Account <button onclick="login()"> LOGIN</button> </small>
+<a class="btn btn-outline-secondary text-center text-dark mt-3" >Submit</a>
+   </div>
+    
+
+</form>
+</div>
+</div>
+
+<!-- front page -->
+
+<div>
+    <div class=" border " height="400px" id="id1"  ><div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../image/tem1.jpg" class="d-block w-100"  height="500px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Meenakshi_Temple</h5>
+              <p >Peace Of Mind  And Culture In The Capital</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../image/temple-2033409__340.jpg" class="d-block  w-100"  height="500px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 >Vivekananda-rock- Memorial</h5>
+              <p >Peace and Courage In the Middle Of Sea</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../image/water.jpg" class="d-block  w-100" height="500px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Courtallam</h5>
+              <p>Our Depressed Falls In The Falls</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="../image/port.jpg" class="d-block  w-100"  height="500px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Tuticorin</h5>
+              <p>Land Of Pearls</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="../image/ram.jpg" class="d-block  w-100"  height="500px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Ramanadhapuram</h5>
+              <p>Travel In The Middle Of Ocean With God`s Grace</p>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        </div>
+</div>
+<!-- 
+part-1 -->
+
+
+<div class="container border border mt-5" >
+<div class="container  mt-5 " >
+    <div class="car" >
+        
+            <div class="card-body">
+                <h1 class="text-center ">History</h1>
+                <div class="card-img border ">
+
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="10000">
+                            <div class="row">
+                              <div class="col-12">                            <div class="d-flex">
+                            <img src="../image/jata.jpg" height="400px" class="d-block w-20" alt="...">
+                            <p class="p-5">Jatavarman Sundara I, also known as Sadayavarman Sundara Pandyan, was a emperor of the Pandyan dynasty who ruled regions of Tamilakkam (present day South India) and Andhra between 1250–1268 CE.[1] He is remembered for his patronage of the arts and tamil architecture. On the eve of his death in 1268 CE, the second Pandyan empire's power and territorial extent had risen to its zenith  <br>
+                            
+                            By the middle of the 13th century, the Chola dynasty which had dominated Southern India over the past three centuries was declining. The last king of the Later Cholas, Rajendra Chola III reigned over a crumbling empire beset with rebellion and increasing external influence from Hoysalas and Kadavas. Previous rulers of the Pandyan kingdom like Maravarman Sundara Pandyan I had succeeded in overthrowing Chola hegemony. 
+                            
+                            </p>
+                          </div>
+<div class="col-12">
+                              <center >
+                              <h5 class="mt-5 text-danger">Jatavarman Sundara Pandyan I</h5>
+                              <p>1250-1268</p>
+                              
+                                <a href="https://en.wikipedia.org/wiki/Jatavarman_Sundara_Pandyan_I" class="btn btn-outline-secondary ">About more..</a>
+                            </center>
+                          </div>
+                          </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item" data-bs-interval="2000">
+                            <div class="row">  
+                              <div class="col-12">      
+                           <div class="d-flex">
+                            <img src="../image/mara.jfif" height="400px" class="d-block w-20" alt="...">
+                            <p class="p-5">Maravarman Kulasekhara Pandyan I was a Pandyan emperor who ruled from 1268 AD to 1311 AD . He succeeded Sadayavarman Sundara Pandyan I and ruled till his death. <br>
+                                Notable among the war events during the reign of Maravarman Kulasekarapandian was his capture of Kollam in Cheranad and his invasion of Eelam. Maravarman Kulasekarapandian was born in AD. In 1274 he invaded Cheranad and conquered Kollam in that country. So he got the title of Pandian with Kollam
+                            
+                            </p></div>
+                          </div>
+                            <div class=" col-12">
+                              <center>
+                              <h5 class=" text-danger">Maravarman Kulasekhara Pandyan I</h5>
+                              <p>1308-1323</p>
+                              <a href="https://en.wikipedia.org/wiki/Jatavarman_Sundara_Pandyan_I" class="btn btn-outline-secondary ">About more..</a>
+                            </center>
+                            </div>
+                          </div>
+    
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item " data-bs-interval="10000">
+                              <div class="row">      
+                            <div class="d-flex col-12">
+                              <img src="../image/sun.jfif" height="400px" class="d-block w-20" alt="...">
+                              <p class="p-5">Sundara Pandyan came to power in 1216 CE after the death of his elder brother Jatavarman Kulasekara Pandyan. Kulasekara Pandyan was a vassal of the Chola King Kulothunga Chola III. He had opposed and been defeated by Kulothunga Chola III in 1205 CE, when the victorious Chola armies burned down the ancient Pandyan coronation hall in Madurai. This sowed the seed for revenge when Sundara Pandyan took power
+                                <br>Sundara Pandiyan II was one of two Pandyan princes who acceded to power in 1238 after Maravarman Sundara Pandyan I.[1] He shared his rule with his elder brother Jatavarman Kulasekaran II for two years.[3] His years of reign are unclear. While KA Nilakanta Sastri mentions him as the Pandyan prince defeated by Rajendra Chola III around 1250,[4] N Sethuraman mentions another Pandyan prince - Jatavarman Vikkiraman I as the Pandyan ruler between 1241 and 1250.
+                              </p></div>
+                              <div class="col-12 ">
+                                <center>
+                                <h5 class="mt-5 text-danger">Maravarman Sundara Pandyan II</h5>
+                                <p>1241-1250</p>
+                               
+                                  <a href="https://en.wikipedia.org/wiki/Maravarman_Sundara_Pandyan" class="btn btn-outline-secondary ">About more..</a>
+                              </center>
+                              </div>
+                            </div>
+                          </div>
+
+
+                            <div class="carousel-item" data-bs-interval="2000">
+                              <div class="row">                                <div class="d-flex col-12">
+                                <img src="../image/mara.jfif" height="400px" class="d-block w-20" alt="...">
+                                <p class="p-5">Nedunjeliyan I[a] (r.  c. 270 BCE) (Tamil: நெடுஞ்செழியன்) was a Pandya king. He was also known as Arya Padai Kadantha Nedunchezhiyan[1] <br>
+                                  His name is present in the Mangulam inscriptions of 3rd century BCE. The inscriptions mentions that workers of Nedunjeliyan I, a Pandyan king of Sangam period, (c. 270 BCE) made stone beds for Jain monks <br>
+                                  Nedunjeliyan I was also the Pandya king of the epic Silappatikaram authored by the Sangam poet Ilango Adigal who later died of a broken heart along with his queen consort Kopperundevi.[3][4]
+
+He is portrayed by O. A. K. Thevar in the film Poompuhar 
+                                
+                                </p></div>
+                                <div class="col-12">
+                                  <center>
+                                  <h5 class=" text-danger">Nedunjeliyan I</h5>
+                                  <p>1308-1323</p>
+                                  <a href="https://en.wikipedia.org/wiki/Nedunjeliyan_I" class="btn btn-outline-secondary ">About more..</a>
+                                </center>
+                                </div>
+                              </div>
+
+                              </div>
+
+                              <div class="carousel-item" data-bs-interval="2000">
+                                <div class="row">                                <div class="d-flex col-12">
+                                <img src="../image/vera.jfif" height="400px" class="d-block w-20" alt="...">
+                                <p class="p-5">Veerapandiya Kattabomman[1] was an 18th-century Palayakarrar and king of Panchalankurichi[2][3] in Tamil Nadu, India. He fought British East India Company He was captured by the British with the help of the ruler of the kingdom of Pudukottai, Vijaya Raghunatha Tondaiman, and at the age of 39 he was hanged at Kayathar on 16 October 1799.[4] <br> The site of his execution at Kayathar has become a "powerful local shrine" and at one time sheep were sacrificed there.[6] The Government of Tamil Nadu maintains a memorial at Kayathar and the remnants of the old fort at Panchalankurichi is protected by the Archaeological Survey of India.[7][8] In 2006, the Tirunelveli district administration organised a festival at Panchalankurichi on his birth anniversary.[9]
+
+                                  The Tamil-language film Veerapandiya Kattabomman, starring Sivaji Ganesan, is based on his life.
+                                   
+                                
+                                </p></div>
+                                <div class="col-12">
+                                  <h5 class=" text-danger">Veerapandiya Kattabomman</h5>
+                                  <p>18th Century</p>
+                                  <a href="https://en.wikipedia.org/wiki/Veerapandiya_Kattabomman" class="btn btn-outline-secondary ">About more..</a>
+                                </center>
+                                </div>
+                              </div>
+
+                              </div>
+
+
+
+                            
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+
+
+                    
+                
+            </div>
+                
+            
+            </div>
+                
+                
+
+            </div>
+        
+    </div>
+</div>
+
+
+
+<!-- part-2 -->
+<div class="container  mt-5" >
+  <div class="container mt-5 " >
+      <div class="car" >
+          
+              <div class="card-body">
+                  <h1 class="text-center ">Tourist Places</h1>
+                  <div class="card-img border ">
+  
+                      <div id="carouselExampleDark1" class="carousel carousel-dark slide">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  
+                            <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                              <div class="row">                              <div class="d-flex col-12">
+                              <img src="../image/cour.jfif" height="400px" class="d-block  " width="23%"   alt="...">
+                              <p class="p-5">Courtallam is a panchayat town situated at a mean elevation of 160 m (520 ft) in the foothills of the Western Ghats in Tenkasi district of Tamil Nadu, India. The Coutrallam Falls on the Chittar River is a major tourist attraction.  <br>Located in the Western Ghats, Courtallam is part of the Agasthiamalai range, the mountain bearing the name of sage Agastya who is believed to have lived in the area.[2] The closest town to Courtallam is Tenkasi at 5 km (3.1 mi). The closest airports are Tuticorin Airport and Trivandrum International Airport. The nearest railway station is at Tenkasi, 5 km (3.1 mi) away.
+                              </p></div>
+                              <div class=" col-12">
+                                <center>
+                                                               <h5 class="mt-5 text-danger">Courtallam</h5>
+                                <a class="btn " href="https://goo.gl/maps/aUU9HeSza2vdbUNv9"><i class="fa-solid fa-location-dot fa-bounce text-danger"></i></a>
+                                <p>Tenkasi dt</p>
+                               
+                                  <a href="https://en.wikipedia.org/wiki/Courtallam" class="btn btn-outline-secondary ">About more..</a>
+                              </center>
+                              </div>
+                            </div>
+                          </div>
+
+
+
+                            <div class="carousel-item" data-bs-interval="2000">
+                              <div class="row">                              <div class="d-flex col-12">
+                              <img src="../image/2018060196-olwb4cytm2odzb1owz4ohdgrvd4c0lkcydwjixnc7e.png" height="400px" width="23%" class="d-block w-20" alt="...">
+                              <p class="p-5">Vivekananda Rock Memorial is a sacred monument and popular tourist attraction in Kanyakumari, India.
+The memorial stands on one of two rocks located about 500 meters off mainland India's southernmost tip. It was built in 1970 by the Vivekananda Rock Memorial Committee in honour of the visit of the great spiritual teacher Swami Vivekananda to Shripada Parai during the month of December 1892 for deep meditation and enlightenment. <br>
+The Thiruvalluvar Statue is a 133 feet (40.5 m) tall stone sculpture of the Tamil poet and saint Tiruvalluvar, author of the Thirukkural. It was opened in January 1, 2000 (Millenium) and is located atop a small island near the town of Kanyakumari, where two seas and an ocean meet; the Bay of Bengal, the Arabian Sea, and the Indian Ocean .
+
+                              </p></div>
+                              <div class="col-12">
+                                <h5 class=" text-danger">Vivekananda rock - Thiruvalluvar Statue</h5>
+                                <a class="btn " href="https://goo.gl/maps/a9RwZ3C4udfhDFf2A"><i class="fa-solid fa-location-dot fa-bounce text-danger"></i></a>
+                                <p>Kanyakumari dt</p>
+                                <a href="https://www.sea-seek.com/en/Vivekananda-rock-Thiruvalluvar-Statue" class="btn btn-outline-secondary ">About more..</a>
+                              </center>
+                              </div></div>
+
+                          
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item " data-bs-interval="10000">
+                                <div class="row">                              <div class="d-flex col-12">
+                                <img src="../image/athi.jfif" height="400px" class="d-block w-20" width="23%" alt="...">
+                                <p class="p-5">Located on the Madurai - Dindigul National Highway near Madurai, Athisayam is a massive water cum amusement park. Sprawling over a vast 70 acres of land, the park boasts of a total of 40 games and 20 water rides. The park also has a 7D theatre, an eatery and a recreation garden for kids.
+                                  <br>
+                                </p></div>
+                                <div class="col-12">
+                                  <center>
+                                  <h5 class="mt-5 text-danger">Athisaiyam</h5>
+                                  <a class="btn " href="https://goo.gl/maps/3FrbsCRgRBduP1Zd6"><i class="fa-solid fa-location-dot fa-bounce text-danger"></i></a>
+                                  <p>Madurai dt</p>
+                                  
+                                    <a href="https://athisayampark.com/" class="btn btn-outline-secondary ">About more..</a>
+                                </center>
+                                </div>
+                              </div></div>
+  
+  
+  
+                              <div class="carousel-item" data-bs-interval="2000">
+                                <div class="row">
+                                  <div class="d-flex col-12">
+                                  <img src="../image/kodai.jfif" height="400px" class="d-block w-20" width="23%" alt="...">
+                                  <p class="p-5">Kodaikanal (Tamil: [koɖaɪkkaːɳal]) is a hill station which is located in Dindigul district in the state of Tamil Nadu, India.[2] Its name in the Tamil language means "The Gift of the Forest".[3] Kodaikanal is referred to as the "Princess of Hill stations" and has a long history as a retreat and tourist destination.
+
+
+                                    Kodaikanal Main Town covered with mist
+                                    
+                                    Boating in Kodaikanal Lake
+                                    Kodaikanal was established in 1845 as a refuge from the high temperatures and tropical diseases of the plains.[4] Much of the local economy is based on the hospitality industry serving tourism. As of 2011, the city had a population of 36,501. <br>
+                                   
+                                  
+                                  </p></div>
+                                  <div class="col-12">
+                                    <center>
+                                    <h5 class=" text-danger">Kodaikanal</h5>
+                                    <a class="btn " href="https://goo.gl/maps/AEcDTCT425hMGwP27https://goo.gl/maps/aUU9HeSza2vdbUNv9"><i class="fa-solid fa-location-dot fa-bounce text-danger"></i></a>
+                                    <p>Dhindukal dt</p>
+                                    <a href="https://www.holidify.com/places/kodaikanal/sightseeing-and-things-to-do.html" class="btn btn-outline-secondary ">About more..</a>
+                                  </center>
+                                  </div>
+                                </div>
+                                </div>
+  
+                                <div class="carousel-item" data-bs-interval="2000">
+                                  <div class="row">                                  <div class="d-flex col-12">
+                                  <img src="../image/aga.jpg" height="400px" class="d-block w-20" width="23%" alt="...">
+                                  <p class="p-5">As per Hindu legend, during the divine wedding of Shiva and Parvathi, there was heavy crowd at Kailash, the abode of Shiva. Sage Agasthya could not view event and prayed to Shiva at this place to get him a view of the event. Pleased by his devotion, Shiva appeared to the sage and his wife Lopamundra along with Parvathi in his marriage attire. Shiva made the place his abode and came to be called Papansanathar and the falls nearby the temple got the name of Agasthiyar as Agasthiyar Falls. Tamiraparani River reaches is descent in flat land at this place. As per another legend, sage Urosamar floated a set of flowers in the river and the first flower reached the shore at this place. The sage established a temple for Papanasanathar and worshipped the deity here.
+                                     
+                                  
+                                  </p></div>
+                                  <div class="col-12">
+                                    <h5 class=" text-danger">Agathiyar Falls</h5>
+                                    <a class="btn " href="https://goo.gl/maps/NDfQLqFxckf7Rewo6"><i class="fa-solid fa-location-dot fa-bounce text-danger"></i></a>
+                                    <p>Tirunelveli dt</p>
+                                    <a href="https://en.wikipedia.org/wiki/Agasthiyar_Falls" class="btn btn-outline-secondary ">About more..</a>
+                                  </center>
+                                  </div>
+                                </div>
+
+                                </div>
+  
+  
+  
+                              
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark1" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark1" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+  
+  
+                      
+                  
+              </div>
+                  
+              
+              </div>
+              <center>                 <a href="https://www.holidify.com/state/tamil-nadu/top-destinations-places-to-visit.html" class="btn btn-primary mt-3">See More</a></center>
+ 
+                  
+  
+              </div>
+          
+      </div>
+  </div>
+
+
+
+<!-- part-3 -->
+
+
+ <div class="container mt-5 " >
+      <div class="car" >
+          
+              <div class="card-body">
+                  <h1 class="text-center ">Religional Places</h1>
+                  <div class="card-img border ">
+  
+                      <div id="carouselExampleDark2" class="carousel carousel-dark slide">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+                            <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                              <div class="row">
+                              <div class="d-flex col-12">
+                              <img src="../image/Temple_de_Mînâkshî01.jpg" height="400px" class="d-block  " width="23%"   alt="...">
+                              <p class="p-5">Madurai Meenakshi Sundareswarar temple was built by Pandayan Emperor Sadayavarman Kulasekaran I (1190 CE–1205 CE). He built the main Portions of the three-storeyed Gopuram at the entrance of Sundareswarar Shrine and the central portion of the Goddess Meenakshi Shrine are some of the earliest surviving parts of the temple. The traditional texts call him a poet-saint king, additionally credit him with a poem called Ambikai Malai, as well as shrines (koil) each for Natarajar and Surya near the main temple, Ayyanar in the east, Vinayagar in the south, Kariamalperumal in the west and Kali in the north. He also built a Mahamandapam. Kulasekara Pandya was also a poet and he composed a poem on Meenakshi named Ambikai Malai.[9] Maravarman Sundara Pandyan I built a gopuram in 1231, then called Avanivendaraman
+                              </p></div>
+                              <div class="col-12 ">
+                                <center>
+                                <h5 class="mt-5 text-danger">Arulmigu Meenakshi Sundaraswarar Temple</h5>
+                                <a class="btn " href="https://goo.gl/maps/zqV2khVNuZje4GZHA"><i class="fa-solid fa-location-dot fa-bounce text-danger"></i></a>
+                                <p>Madurai dt</p>
+                                
+                                  <a href="https://en.wikipedia.org/wiki/Meenakshi_Temple" class="btn btn-outline-secondary ">About more..</a>
+                              </center>
+                              </div>
+                            </div></div>
+
+
+                            <div class="carousel-item" data-bs-interval="2000">
+                              <div class="row">
+                              <div class="d-flex col-12">
+                              <img src="../image/andal1.jpg" height="400px" width="23%" class="d-block w-20" alt="...">
+                              <p class="p-5">The Srivilliputhur Andal Temple in Srivilliputhur, a town in Virudhunagar district in the South Indian state of Tamil Nadu, is dedicated to the Hindu god Vishnu. It is located 80 km from Madurai. Constructed in the Dravidian style of architecture, the temple is glorified in the Nalayira Divya Prabandham, the early medieval Tamil canon of the Alvar saints from the 6th–9th centuries CE. It is one of the 108 Divya Desams dedicated to Vishnu, who is worshipped as Vatapatrasayi and his consort Lakshmi as Andal <br>
+                                As per Hindu legend, the land around Srivilliputhur was under the rule of Queen Malli. The queen had two sons called Villi and Kandan. While the two were hunting in a forest, a tiger killed Kandan
+
+                              </p></div>
+                              <div class="col-12">
+                                <center>
+                                <h5 class=" text-danger">Srivilliputhur Andal temple</h5>
+                                <a class="btn " href="https://goo.gl/maps/WeFh7J3DczLTFvk17"><i class="fa-solid fa-location-dot fa-bounce text-danger"></i></a>
+                                <p>Virudhunagar dt</p>
+                                <a href="https://www.sea-seek.com/en/Vivekananda-rock-Thiruvalluvar-Statue" class="btn btn-outline-secondary ">About more..</a>
+                              </center>
+                              </div></div>
+                          
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item " data-bs-interval="10000">
+                                <div class="row">                               <div class="d-flex col-12">
+                                <img src="../image/sadu.jfif" height="400px" class="d-block w-20" width="23%" alt="...">
+                                <p class="p-5">Sathuragiri Hills (caturakiri), also known as "Chathuragiri" or "Sundara Mahalingam",[1] is a pilgrimage site located in Madurai district and 10 km from Watrap, near Srivilliputhur, in the state of Tamil Nadu in South India.[2] The hills are a part of the Western ghats. This hills located in the Border of Madurai District
+                                  <br>
+                                  <B>There are a few specific days when the general public is permitted to visit the Sathuragiri Hills. These days include new moon and full moon days and on two Pradhosham days </B>
+
+                                  <br>The name Sathuragiri originates from the words "Chathur" means "Four," and "Giri" means "Hill." An alternative origin for the name is attributed to the fact that the hill is square-shaped and therefore known as "Chathuragiri." Sathuragiri is known as the Abode of God.
+                                </p></div>
+                                <div class="col-12 ">
+                                  <center>
+                                  <h5 class="mt-5 text-danger">Sathuragiri Hills</h5>
+                                  <a class="btn " href="https://goo.gl/maps/mUYZxFzmuqGb76V48"><i class="fa-solid fa-location-dot fa-bounce text-danger"></i></a>
+                                  <p>Madurai dt</p>
+                                 
+                                    <a href="https://en.wikipedia.org/wiki/Sathuragiri_Hills" class="btn btn-outline-secondary ">About more..</a>
+                                </center>
+                                </div>
+                              </div></div>
+ 
+  
+  
+                              <div class="carousel-item" data-bs-interval="2000">
+                                <div class="row">
+                                  <div class="d-flex col-12">
+                                  <img src="../image/Ramanathaswamy_temple7.JPG" height="400px" class="d-block w-20" width="23%" alt="...">
+                                  <p class="p-5">Ramanathaswamy Temple (Rāmanātasvāmi Kōyil) is a Hindu temple dedicated to the god Shiva located on Rameswaram island in the state of Tamil Nadu, India. It is also one of the twelve Jyotirlinga temples. It is one of the 275 Paadal Petra Sthalams, The temple was expanded during the 12th century by the Pandya Dynasty, and its principal shrine’s sanctum was renovated by Jeyaveera Cinkaiariyan and his successor Gunaveera Cinkaiariyan, monarchs of the Jaffna kingdom <br>
+                                    The temple in its current form is believed to have been built during the 17th century, while Fergusson believes the small vimana in the west corridor belongs to the 11th or 12th century.[3] The temple is said to have been sanctioned for construction by King Kizhavan Sethupathi or Raghunatha Kilavan. The contribution of the Jaffna kings of Pandya Dynasty to the temple was considerable
+                                  
+                                  </p></div>
+                                  <div class="col-12">
+                                    <center>
+                                                                          <h5 class=" text-danger">Ramanathaswamy Temple</h5>
+                                    <a class="btn " href="https://goo.gl/maps/LG37Cqj2cj3auytw7"><i class="fa-solid fa-location-dot fa-bounce text-danger"></i></a>
+                                    <p>Ramanadhapuram dt</p>
+                                    <a href="https://en.wikipedia.org/wiki/Ramanathaswamy_Temple" class="btn btn-outline-secondary ">About more..</a>
+                                  </center>
+                                  </div>
+                                </div>
+                                </div>
+  
+                                <div class="carousel-item" data-bs-interval="2000">
+                                  <div class="row">
+                                  <div class="d-flex col-12">
+                                  <img src="../image/kanya.jfif" height="400px" class="d-block w-20" width="23%" alt="...">
+                                  <p class="p-5">Devi Kanya Kumari (Tamil: தேவி கன்னியா குமரி, Sanskrit: देवी कन्या कुमारि, romanized: Dēvi Kanyā Kumāri) is a manifestation of the Hindu goddess Mahadevi in the form of an adolescent girl. She is variously described by various traditions of Hinduism to either be a form of Parvati or Lakshmi. She is also worshipped as an incarnation of the goddess Bhadrakali by Shaktas, and is known by several names such as Shrī Bāla Bhadra, Shrī Bāla, Kanya Devi, and Devi Kumari. <br>
+                                    The story dates back to the pre-Vedic Tamil period. Banasura, a demon by birth, was the ruler of the land of Kanyakumari. He was a very powerful king. He practiced tapasya and obtained a boon from Brahma that his death could only be caused by an adolescent girl.[4][9]
+
+With this powerful boon, he became fearless and wreaked havoc on the entire world.
+                                     
+                                  
+                                  </p></div>
+                                  <div class="col-12">
+                                    <center>
+                                    <h5 class=" text-danger">Devi Kanya Kumari</h5>
+                                    <a class="btn " href="https://goo.gl/maps/2ZWwgXFdbHQPrrqFA"><i class="fa-solid fa-location-dot fa-bounce text-danger"></i></a>
+                                    <p> KanyaKumari dt</p>
+                                    <a href="https://en.wikipedia.org/wiki/Devi_Kanya_Kumari" class="btn btn-outline-secondary ">About more..</a>
+                                  </center>
+                                  </div>
+                                </div>
+                                </div>
+  
+                                <div class="carousel-item" data-bs-interval="2000">
+                                  <div class="row">                                  <div class="d-flex col-12">
+                                  <img src="../image/papanas.jpg" height="400px" class="d-block w-20" width="23%" alt="...">
+                                  <p class="p-5">Papanasanathar Temple in Papanasam, a village in Tirunelveli district in the South Indian state of Tamil Nadu, is dedicated to Hindu god Shiva. It is located 60 km from Tirunelveli. Constructed in the Dravidian architecture, the temple has three precincts. Shiva is worshipped as Papanasanathar and his consort Parvathi as Ulagammai.<br>
+                                    As per Hindu legend, during the divine wedding of Shiva and Parvathi, there was heavy crowd at Kailash. Sage Agasthya could not get a vision of the event and was praying to Shiva at this place and pleased by his devotion, Shiva appeared to him and his wife Lopamundra in Kalyana posture. The falls nearby the temple is thus called Agasthiyar Falls.
+                                  
+                                  </p></div>
+                                  <div class="col-12">
+                                    <center>
+                                    <h5 class=" text-danger">Papanasanathar Temple
+                                    </h5>
+                                    <a class="btn " href="https://goo.gl/maps/9hQCcXz3QJgV9pT27"><i class="fa-solid fa-location-dot fa-bounce text-danger"></i></a>
+                                    <p>Tirunelveli dt</p>
+                                    <a href="https://en.wikipedia.org/wiki/Papanasanathar_Temple" class="btn btn-outline-secondary ">About more..</a>
+                                  </center>
+                                  </div>
+                                </div>
+
+                                </div>
+  
+  
+                              
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+  
+  
+                      
+                  
+              </div>
+                  
+              
+              </div>
+              <center>                 <a href="https://www.tripadvisor.in/Attractions-g297674-Activities-c47-t10-Tamil_Nadu.html" class="btn btn-outline-primary mt-3">See More</a></center>
+ 
+                  
+  
+              </div>
+          
+      </div>
+  </div>
+
+
+<!-- part-4 -->
+
+ <div class="container mt-5 " >
+      <div class="car" >
+          
+              <div class="card-body">
+                  <h1 class="text-center ">Historical Places</h1>
+                  <div class="card-img border ">
+  
+                      <div id="carouselExampleDark3" class="carousel carousel-dark slide">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  
+                            <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                              <div class="row">                            <div class="d-flex col-12">
+                              <img src="../image/nayaka.jpg" height="400px" class="d-block  " width="23%"   alt="...">
+                              <p class="p-5">The palace known as Thirumalai Nayak Palace or Thirumalai Nayak Mahal was built by Thirumalai Nayak , one of the Nayak kings who ruled Madurai . Built in 1636. Located in Madurai, this building is situated in the south-east direction , about 2 kilometers from the famous Madurai Meenakshi Amman Temple <br>Designed in the architectural style known as the Indo Saracenic style , the palace is 58 feet tall. It is supported by 248 colossal pillars. On the ceiling are painted legends of Vishnu and Shiva. [2] At that time, the palace consisted of two main parts. One was called the heavenly address and the other the arena address . 'Sorka Vilasam' was the residence of t
+                              </p></div>
+                              <div class="col-12">
+                                <center>
+                                <h5 class="mt-5 text-danger">Tirumala Nayakkar Palace</h5>
+                                <a class="btn " href="https://goo.gl/maps/GDHALeb5m5Vincng9"><i class="fa-solid fa-location-dot fa-bounce text-danger"></i></a>
+                                <p>Madurai dt</p>
+                               
+                                  <a href="https://en.wikipedia.org/wiki/Thirumalai_Nayakkar_Mahal" class="btn btn-outline-secondary ">About more..</a>
+                              </center>
+                              </div>
+                            </div></div>
+  
+
+
+                            <div class="carousel-item" data-bs-interval="2000">
+                              <div class="row">                              <div class="d-flex col-12">
+                              <img src="../image/vattakottai.jfif" height="400px" width="23%" class="d-block w-20" alt="...">
+                              <p class="p-5">Vattakottai Fort (or 'Circular Fort') is a seaside fort near Kanyakumari, Tamil Nadu the southern tip of India. It was built in the 18th century as a coastal defence-fortification and barracks in the former Travancore kingdom. <br>
+                                Vattakottai Fort commands a picturesque view of both the sea on the one side, and the hills (Western Ghats) on the other. Another interesting feature near the site is a beach of black sands. It is about 7 km (4.3 mi) from Kanyakumari town.
+                                <br>
+                                It was constructed in the 18th century by Punachal/Elakkara Valiyaveetil Marthandan Chempakaraman Pillai for the kings of Travancore. Marthanda Pillai was born in an aristocratic house in Punachal Elakkara near Kuzhikode near Palliyadi in Kanyakumari district.
+
+
+
+                              </p></div>
+                              <div class="col-12">
+                                <center>
+                                <h5 class=" text-danger">Vattakottai Fort</h5>
+                                <a class="btn " href="https://goo.gl/maps/ajbjkz9cibuqediaA"><i class="fa-solid fa-location-dot fa-bounce text-danger"></i></a>
+                                <p>Kanyakumari dt</p>
+                                <a href="https://en.wikipedia.org/wiki/Vattakottai_Fort" class="btn btn-outline-secondary ">About more..</a>
+                              </center>
+                              </div>
+                            </div>
+
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item " data-bs-interval="10000">
+                                <div class="row">                              <div class="d-flex col-12">
+                                <img src="../image/eagle.jfif" height="400px" class="d-block w-20" width="23%" alt="...">
+                                <p class="p-5">Kalugumalai ( English : Kalugumalai ) is a municipality in Thoothukudi district in the Indian state of Tamil Nadu . Kalgakumalai is home to the famous Kalgakumalai Ketuvan Temple , Kalgakumalai Murugan Temple and Kalgakumalai Jamanar Basins .
+                                  <br>On the eastern side of Kalgukumalai, which is named Aramimalai, there is the Ketavan Temple and near it there are images of Jamanathirthankar on the southern hill. Ketwan Temple in ElloraSimilar to Kailasanathar Temple
+                                </p></div>
+                                <div class="col-12 ">
+                                  <center>
+                                  <h5 class="mt-5 text-danger">Eagle Mountain</h5>
+                                  <a class="btn " href="https://goo.gl/maps/XNyQJ21faCH7CXdJ7"><i class="fa-solid fa-location-dot fa-bounce text-danger"></i></a>
+                                  <p>Tuticorin dt</p>
+                               
+                                    <a href="https://ta.wikipedia.org/wiki/%E0%AE%95%E0%AE%B4%E0%AF%81%E0%AE%95%E0%AF%81%E0%AE%AE%E0%AE%B2%E0%AF%88_%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AF%81%E0%AE%B5%E0%AE%BE%E0%AE%A9%E0%AF%8D_%E0%AE%95%E0%AF%8B%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AF%8D" class="btn btn-outline-secondary ">About more..</a>
+                                </center>
+                                </div>
+                              </div></div>
+  
+  
+  
+                              <div class="carousel-item" data-bs-interval="2000">
+                                <div class="row">                                  <div class="d-flex col-12">
+                                  <img src="../image/korkai.jfif" height="400px" class="d-block w-20" width="23%" alt="...">
+                                  <p class="px-5">Korkai is a small village in the Srivaikuntam taluk of Thoothukudi district in Tamil Nadu, India. It was called Pandya-Kavada in the Kapatapuram in Kalithogai. It is situated about 3 km north of the Thamirabarani River and about 6 km from the shore of Bay of Bengal. <br>
+                                    Korkai was the capital, principal center of trade and important port of the Early Pandyan Kingdom. At that time, it was located on the banks of the Tamiraparani River and at the sea coast, forming a natural harbour. Due to excessive sedimentation, the sea has receded about 6 km in the past 2000 years, leaving Korkai well inland today.
+                                  
+                                  </p></div>
+                                  <div class="col-12">
+                                    <center>
+                                    <h5 class=" text-danger">Korkai</h5>
+                                    <a class="btn " href="https://goo.gl/maps/6KQPHuruXavpdGiz8"><i class="fa-solid fa-location-dot fa-bounce text-danger"></i></a>
+                                    <p>Thoothukudi dt</p>
+                                    <a href="https://en.wikipedia.org/wiki/Korkai" class="btn btn-outline-secondary ">About more..</a>
+                                  </center>
+                                  </div>
+                                </div>
+
+                                </div>
+  
+                                <div class="carousel-item" data-bs-interval="2000">
+<div class="row">
+                                  <div class="d-flex col-12">
+                                  <img src="../image/key.jpg" height="400px" class="d-block w-20" width="23%" alt="...">
+                                  <p class="p-5">Keezhadi (also as Keeladi) excavation site is a Sangam age settlement that is being excavated by the Archaeological Survey of India and the Tamil Nadu State Department of Archaeology.[1][2] This site is located 12 km southeast of Madurai in Tamil Nadu, near the town of Keezhadi in Sivagangai district. It comes under the Thiruppuvanam Taluk of Sivagangai district. This is a large-scale excavation carried out in Tamil Nadu after the Adichanallur archaeological site. The settlement lies on the bank of the Vaigai River and it reflects the ancient culture of Tamil people.[3] Epigraphist V. Vedachalam, who served as a domain expert for the excavation, dated the excavated remains between 6th century BCE and 3rd century CE. <br>The excavation was first started in Pallisanthai Thidal which is in the north of Manalur, about a kilometer east of the town of Keezhadi in Sivagangai district.
+                                     
+                                  
+                                  </p></div>
+                                  <div class="col-12">
+                                    <center>
+                                    <h5 class=" text-danger">Keezhadi</h5>
+                                    <a class="btn " href="https://goo.gl/maps/9m99PCAWXhek3vf3A"><i class="fa-solid fa-location-dot fa-bounce text-danger"></i></a>
+                                    <p>Sivagangai dt</p>
+                                    <a href="https://en.wikipedia.org/wiki/Keezhadi_excavation_site" class="btn btn-outline-secondary ">About more..</a>
+                                  </center>
+                                  </div>
+                                </div>
+                                </div>
+  
+  
+  
+                              
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark3" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark3" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+  
+  
+                      
+                  
+              </div>
+                  
+              
+              </div>
+              <center>                 <a href="https://www.holidify.com/collections/historical-places-in-south-india" class="btn btn-primary mt-3">See More</a></center>
+ 
+                  
+  
+              </div>
+          
+      </div>
+  </div>
+
+
+<!-- 
+part-5 -->
+
+
+ <div class="container mt-5 " >
+      <div class="car" >
+          
+              <div class="card-body">
+                  <h1 class="text-center ">Dams</h1>
+                  <div class="card-img border ">
+  
+                      <div id="carouselExampleDark4" class="carousel carousel-dark slide">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+                            <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                              <div class="row">
+                              <div class="d-flex col-12">
+                              <img src="../image/papanasam.jfif" height="400px" class="d-block  " width="23%"   alt="...">
+                              <p class="p-5 ">Papanasam Dam is situated 49 km from Tirunelveli in Tamil Nadu, while the Manimuthar Dam is 47 km from the same. Papanasam dam is constructed on Tamirabarani River to irrigate about 34,846 hectares of paddy field of Tirunelveli and Tuticorin districts. The British constructed the Papanasam Dam in 1942.
+                                <br><b>
+                                It is 744 feet long, 200 feet high and 5.4 meters wide. The total capacity of this dam is 5500 million cusec feet. Water of this dam is spread over 2.24 square miles area. During overflow, water flows at 8000 cusec feet per second </b>
+                                <br>
+
+
+                              </p></div>
+                              <div class="col-12">
+                                <center>
+                                                                  <h5 class="mt-5 text-danger">Manimuthar And Papanasam Dam
+                                </h5>
+                                <a class="btn " href="https://goo.gl/maps/C946mNP6spKEZMVA6"><i class="fa-solid fa-location-dot fa-bounce text-danger"></i></a>
+                                <p>Tirunelveli dt</p>
+                                
+                                  <a href="https://en.wikipedia.org/wiki/Papanasam_Dam" class="btn btn-outline-secondary ">About more..</a>
+                              </center>
+                              </div>
+                            </div></div>
+
+
+                            <div class="carousel-item" data-bs-interval="2000">
+                              <div class="row">
+                              <div class="d-flex col-12">
+                              <img src="../image/250px-Gadana_nadi_dam.jpg" height="400px" width="23%" class="d-block w-20" alt="...">
+                              <p class="p-5 ">Gadananathi (கடனாநதி)also can be called as Gadananadhi or Gatananadhi or Kadananathi or Kadananadhi is a river flowing in the Tirunelveli district of the Indian state of Tamil Nadu. <br><b>
+                                The Gadananathi is fed by the Jambunathi and Ramanathi Rivers. The Gadananadhi has 6 anicuts and a reservoir of 9,970,000 cubic metres (8,080 acre·ft), and irrigates 38.87 square kilometres (15.01 sq mi) of wetlands.
+                              </b>The anaicuts are Arasapattu anaicut, Alwarkurichi Thenkal anaicut, Manjapalli anaicut, Kakkavallur anaicut and Kangeyan anaicut. Gadananathi joins Tamariraparani at Tiruppudaimaruthur. The length of the river is 43 kilometres (27 mi).This river flows on many villages like Sambankulam, Sivasailam, Karuthapillaiyur, Poovankurichi, Kizha Ambur.[citation needed]
+
+                              </p></div>
+                              <div class="col-12">
+                                <center>
+                                <h5 class=" text-danger">Gadananathi </h5>
+                                <a class="btn " href="https://goo.gl/maps/mY628WD2D7rxBCjw9"><i class="fa-solid fa-location-dot fa-bounce text-danger"></i></a>
+                                <p>Tenkasi dt</p>
+                                <a href="https://en.wikipedia.org/wiki/Gadananathi_River" class="btn btn-outline-secondary ">About more..</a>
+                              </center>
+                              </div>
+                            </div>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item " data-bs-interval="10000">
+                                <div class="row">                                <div class="d-flex col-12">
+                                <img src="../image/vaigai.jpg" height="400px" class="d-block w-20" width="23%" alt="...">
+                                <p class="p-5 ">The Vaigai Dam is built across the Vaigai River near Andipatti, in the Theni district of Tamil Nadu, southern India. Near the dam, the Government of Tamil Nadu has constructed an Agricultural Research Station for researching the growing of a variety of crops, including rice, sorghum, blackgram, cowpea and cotton. <br>
+                                  Vaigai Dam was inaugurated on 21 January 1959[3] by Tamil Nadu chief Minister K. Kamaraj.[4] It One of the few dams which is not constructed in between two mountains so this dam completely depends on its own concrete strength. This dam is the life line of farmers of the five districts namely Theni, Dindigul, Madurai, Sivagangai and Ramanathapuram.
+                                  <br>
+                                  <b>Vaigai Dam measures 111 ft in height and can store water up to 71 ft, with a total storage capacity of 6,143 mcft.</b>
+                                </p></div>
+                                <div class="col-12 ">
+                                  <center>
+                                  <h5 class="mt-5 text-danger">The Vaigai Dam</h5>
+                                  <a class="btn " href="https://goo.gl/maps/onKgFEQ6m76u2j9m6"><i class="fa-solid fa-location-dot fa-bounce text-danger"></i></a>
+                                  <p>Theni dt</p>
+                                 
+                                    <a href="https://en.wikipedia.org/wiki/Vaigai_Dam" class="btn btn-outline-secondary ">About more..</a>
+                                </center>
+                                </div>
+                              </div></div>
+
+  
+  
+                              <div class="carousel-item" data-bs-interval="2000">
+                                <div class="row">
+                                  <div class="d-flex col-12">
+                                  <img src="../image/pechi1.jfif" height="400px" class="d-block w-20" width="23%" alt="...">
+                                  <p class="p-5 ">Pechiparai Reservoir is the largest dam in Kanyakumari district. It is located in the foothills of the Western Ghats in the Kanyakumari district of Tamil Nadu at Pachiparai. It is located 43 kilometers (27 mi) from the district capital Nagercoil . This dam is built across the Kotai river. This dam was built during the period 1897-1906 by the European engineer Mr. Minchin by the then Maharaja of Travancore during the Thirunal period <br><b> Its catchment area is 207.19 square kilometers and depth is 14.6 meters (48 feet). . The length of the dam is 425.5 meters and the height is 120.7 meters. A small temple has been built here at Pachiyamman Beil and worship of the deity is also taking place.</b>
+                                   
+                                  
+                                  </p></div>
+                                  <div class="col-12">
+                                    <center>
+                                    <h5 class=" text-danger">Pechiparai Reservoir</h5>
+                                    <a class="btn " href="https://goo.gl/maps/2UbnvDMxcP3JHAUc8"><i class="fa-solid fa-location-dot fa-bounce text-danger"></i></a>
+                                    <p>Kanyakumari dt</p>
+                                    <a href="https://kanyakumaritourism.in/pechiparai-dam-kanyakumari" class="btn btn-outline-secondary ">About more..</a>
+                                  </center>
+                                  </div>
+                                </div>
+                                </div>
+  
+                                <div class="carousel-item" data-bs-interval="2000">
+                                  <div class="row">
+                                  <div class="d-flex col-12">
+                                  <img src="../image/anai.jfif" height="400px" class="d-block w-20" width="23%" alt="...">
+                                  <p class="p-5 ">Anaikuttam Dam is a dam situated in Tamil Nadu in Virudhunagar district. The dam is built on the Arjuna River. Anaikuttam Dam finished the construction in the year 1989
+                                    <br> <b>
+                                    It is an earthen irrigation dam with a length of 2940 meters and height of 9.5 meters.</b> The dam provides drinking water to the Virudhunagar district. According to a news article published in 2020, the dam had the capacity to give 2 million litres of water to Virudhunagar every day.Annaikuttam Dam was constructed in 1986 . Its capacity is 126.00 ml cubic feet . If the Western Ghats receive rains and the Plavakal Dam fills up, the surplus water from there will reach the Anaikuttam Dam. 
+                                     
+                                  
+                                  </p></div>
+                                  <div class="col-12">
+                                    <center>
+                                    <h5 class=" text-danger">Anaikuttam Dam</h5>
+                                    <a class="btn " href="https://goo.gl/maps/xC14Po1xt9rdiTSVA"><i class="fa-solid fa-location-dot fa-bounce text-danger"></i></a>
+                                    <p>Virudhunagar dt</p>
+                                    <a href="https://ta.wikipedia.org/wiki/%E0%AE%86%E0%AE%A9%E0%AF%88%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%81%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%AE%E0%AF%8D_%E0%AE%85%E0%AE%A3%E0%AF%88" class="btn btn-outline-secondary ">About more..</a>
+                                  </center>
+                                  </div>
+                                </div>
+                                </div>
+  
+  
+  
+                              
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark4" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark4" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+  
+  
+                      
+                  
+              </div>
+                  
+              
+              </div>
+              <center>                 <a href="https://indiawris.gov.in/wiki/doku.php?id=dams_in_tamil_nadu" class="btn btn-primary mt-3">See More</a></center>
+ 
+                  
+  
+              </div>
+          
+      </div>
+  </div>
+<!-- part-6 -->
+
+
+<div class="container mt-5 " >
+  <div class="car" >
+      
+          <div class="card-body">
+              <h1 class="text-center ">Famous Things</h1>
+              <div class="card-img border ">
+
+                  <div id="carouselExampleDark5" class="carousel carousel-dark slide">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+                        <button type="button" data-bs-target="#carouselExampleDark5" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark5" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                          <div class="row">
+                          <div class="d-flex col-12">
+                          <img src="../image/halwa.jfif" height="400px" class="d-block  " width="23%"   alt="...">
+                          <p class="p-5 "> 
+                            
+                            “The halwa was first prepared by Rajput cooks who were hired by the zamindar of Chokkampatti (a village near Tirunelveli),” says a spokesperson for the shop. The zamindar, enraptured by the sweets he tasted at Kasi, insisted that Jegan Singh's family prepare them in his palace. <br>
+                            <br >This halwa is famous in the city of Tirunelveli in Tamil Nadu. Made with wheat, sugar, and ghee, Tirunelveli Halwa was popularised by Iruttukadai Halwa, a shop believed to have opened in the year 1900.15
+                          </p></div>
+                          <div class="col-12">
+                            <center>
+                            <h5 class="mt-5 text-danger">Halwa</h5>
+                            <p>Tirunelveli dt</p>
+                           
+                              <a href="https://www.amazon.in/Halwakadai-Tirunelveli-Halwa-500-Grams/dp/B01MEHZGXL" class="btn btn-outline-secondary ">Taste now...</a>
+                          </center>
+                          </div>
+                        </div></div>
+
+
+                        <div class="carousel-item" data-bs-interval="2000">
+                          <div class="row">
+                          <div class="d-flex col-12">
+                          <img src="../image/milk.jfif" height="400px" width="23%" class="d-block w-20" alt="...">
+                          <p class="p-5">   The Rajputs who were brought to Tamil Nadu as cavalrymen for the kingdom of Sokkampatti is said to have brought the concept of Palkovas to the state and Srivilliputhur. <br><br>  You will be surprised to know that your favorite Palkovas have been around since the time of the great Kings and Queens of India and were popular back then as it is today. Now, that must have not surprised you! It is said that Palkovas was first made by the Rajputs who traveled down to the South of India from the North. The Rajputs are well known for their exemplary sweet making process with minimal ingredients and this sweet too became popular in no time.  <br>
+                           
+
+                          </p></div>
+                          <div class="col-12">
+                            <center>
+                                                          <h5 class=" text-danger">Palkova</h5>
+                            <p>Viruhunagar dt</p>
+                            <a href="https://nativespecial.com/product/milk-halwa-online/" class="btn btn-outline-secondary ">Taste Now..</a>
+                          </center>
+                          </div></div>
+                      
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item " data-bs-interval="10000">
+                            <div class="row">
+                            <div class="d-flex col-12">
+                            <img src="../image/mac1.jpg" height="400px" class="d-block w-20" width="23%" alt="...">
+                            <p class="p-5 ">Tuticorin Macaroon is a delicacy brought to India by the Portuguese. It was in Tuticorin, a city on the west coast of India, where this sweet was invented. In fact, it has been popularly known as Kavachi in Tamil language and has been manufactured across the State since ages.
+                              <br>
+                              <br>Many of these regions have modified the recipe by adding or modifying the ingredients. Some of the regions have added grated coconut to add a local flavour. In Thooththukkudi almond was replaced with the locally available cashew. The Portuguese introduced Macaroon in India. It came via Ceylon, now Sri Lanka and reached Thooththukkudi, a port town in extreme south Indi
+                            </p></div>
+                            <div class="col-12">
+                              <center>
+                                                             <h5 class="mt-5 text-danger">Macaroon</h5>
+                              <p>Tuticorin dt</p>
+                              
+                                <a href="https://nativespecial.com/product/thoothukudi-macaroon-online/" class="btn btn-outline-secondary ">Taste Now...</a>
+                            </center>
+                            </div>
+                          </div></div>
+
+
+                          <div class="carousel-item" data-bs-interval="2000">
+                            <div class="row">
+                              <div class="d-flex col-12">
+                              <img src="../image/mothi.webp" height="400px" class="d-block w-20" width="23%" alt="...">
+                              <p class="p-5 ">Motichur laddu are soft, delish melt in the mouth ladoo made mainly with gram flour, sugar, and spices. The gram flour batter is fried to make tiny balls or boondi and mixed with sugar syrup, nuts or seeds and later shaped to neat round balls <br><br>
+                                Originally associated with states like Rajasthan and Uttar Pradesh, these ladoos were also easy to store in the torrid temperatures, and wouldn't go bad for days. 
+                               
+                              
+                              </p></div>
+                              <div class="col-12">
+                                <center>
+                                <h5 class=" text-danger">Motichur laddu </h5>
+                                <p>Madurai dt</p>
+                                <a href="https://www.dadus.co.in/motichur-laddu-1-motichur-laddu.html" class="btn btn-outline-secondary ">Taste Now..</a>
+                              </center>
+                              </div>
+                            </div>
+                            </div>
+
+                            <div class="carousel-item" data-bs-interval="2000">
+                              <div class="row">                              <div class="d-flex col-12">
+                              <img src="../image/mun.jfif" height="400px" class="d-block w-20" width="23%" alt="...">
+                              <p class="p-5 ">Munthirikothu is tea time snack common in southern part of Kanyakumari. This famous festival sweet contains dhall, coconut flakes and jaggery syrup. <br> <br>
+                                
+                                Munthiri Kothu is a healthy, mild sweet made by frying balls of powdered green gram, rice that are blend with jaggery syrup & coated with rice flour batter. Munthiri Kothu is a traditional recipe made for festivals and protein packed too.
+                                
+                                
+                                Pin
+                                Munthiri Kothu is a unique festival sweet from Kanyakumari District for Christmas.First I came to know about this sweet through my x-office collegue.When I heard the name, first I thought its a rich sweet made with whole bunch of cashews(as we call cashews as mundhiri in tamil) so asked her for the recipe.
+                                 
+                              
+                              </p></div>
+                              <div class="col-12">
+                                <center>
+                                <h5 class=" text-danger">Munthirikothu </h5>
+                                <p>Kanyakumari dt</p>
+                                <a href="https://www.kumarikadai.com/product/munthiri-kothu/" class="btn btn-outline-secondary ">Taste Now..</a>
+                              </center>
+                              </div>
+                            </div>
+
+                            </div>
+
+
+
+                          
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark5" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark5" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+
+
+                  
+              
+          </div>
+              
+          
+          </div>
+          <center>                 <a href="https://www.sweetkadai.com/" class="btn btn-primary mt-3">Taste More...</a></center>
+
+              
+
+          </div>
+      
+  </div>
+</div>
+
+
+</div>
+
+
+<!-- booking -->
+
+<footer class="mt-5">
+    <center>
+
+<a href=""><i class="fa-solid fa-forward-fast fa-fade fa-xl me-2 text-info"></i><h2 class=" btn btn-outline-danger">Book Now</h2></a>
+
+
+</center>
+</footer>
+
+
+<!-- footer -->
+
+<footer class="bg-light" >
+
+    <div class="container   mt-5" height="400px">
+      
+<div class="row d-flex ">
+  <div class="col-4  btn border p-2 ">
+    <b class="text-info">
+    <a href="" class="text-decoration-none">Safety Payments</a></b>
+  </div>
+  <div class="col-4 btn border p-2">
+    <b class="text-info">
+      <a href="" class="text-decoration-none">Native Products</a></b>
+      </div>
+      <div class="col-4 btn border p-2">
+        <b class="text-info">
+        <a href="" class="text-decoration-none">International Delivery</a></b>
+      </div> </div>
+
+
+
+
+
+      <div class="row d-flex mt-5 ">
+        <div class="col-4  btn border p-2 ">
+          <b class="text-info">
+          <a href="" class="text-decoration-none">Safety Payments</a></b>
+        </div>
+        <div class="col-4 btn border p-2">
+          <b class="text-info">
+            <a href="" class="text-decoration-none">Native Products</a></b>
+            </div>
+            <div class="col-4 btn border p-2">
+              <b class="text-info">
+              <a href="" class="text-decoration-none">International Delivery</a></b>
+            </div> </div>
+
+
+<div class="container mt-5">
+
+<div class="row d-flex " id="policy">
+  <div class="col-4 text-center">
+<ul>
+
+   <li> <b>Policy Info</b>  </li><br>
+    <li><a href="">Cancel And Refund</a></li><br>
+    <li><a href="">Shoping Polocy</a></li><br>
+    <li><a href="">Delhivery Time</a></li><br>
+    <li><a href="">Privacy Policy</a></li><br>
+  </ul>
+
+
+
+    
+  </div>
+
+  <div class="col-4 text-center">
+    
+      <ul>
+      
+         <li> <b>About</b>  </li><br>
+          <li><a href="">Our Story</a></li><br>
+          <li><a href="">Our Missioin And Value</a></li><br>
+          <li><a href="">Our vehicle</a></li><br>
+          <li><a href="">Our Journey</a></li><br>
+        </ul>
+      
+      
+      
+          
+        </div>
+        <div class="col-4 text-center">
+          <ul class="text-size" id="footsymbol">
+          
+             <li> <p class="display-5  ">Get In Touch</p> </li><br>
+             <li><a href="" class="text-success"><i class="fa-brands fa-whatsapp fa-beat"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-instagram fa-beat"></i></a></li>
+              <li><a href="" class="text-info"><i class="fa-brands fa-twitter fa-beat"></i></a></li>
+              
+              <li><a href="" class="text-primary"><i class="fa-brands fa-facebook fa-beat"></i></a></li> <br>
+              <li><a href=""  class="text-dark"> 63697 77777</a></li>
+            </ul>
+          
+          
+          
+              
+            </div>
+
+
+
+  </div>
+
+ 
+
+</div>
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+  
+  
+  
+  
+  </div>
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+<script src="../js/VisitPandya.js"></script>
+<script src="https://kit.fontawesome.com/51cb5acfbe.js " crossorigin="anonymous"></script>
+<script src="../bootstrap/js/jQuary.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

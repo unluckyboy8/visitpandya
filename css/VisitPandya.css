@@ -1,0 +1,108 @@
+*{
+    
+}
+#lname::first-letter{
+font-size: xx-large;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: green;
+}
+#lname{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orangered;
+}
+
+nav{
+    background-color: aquamarine;
+    
+    border: 1px solid black;
+    
+}
+
+
+.container1{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li{
+    display: inline-block;
+    text-decoration: none;
+    
+    
+}
+ul li a{
+    text-decoration: none;
+    color: red;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 0px 10px;
+}
+div a img{
+    padding: 5px;
+    cursor: pointer;
+}
+ul li a:hover{
+
+color: orangered;
+text-shadow: 30px;
+border-style:groove;
+padding:5px ;
+transform-box: 5px;
+}
+
+
+/* 
+signin */
+
+
+#su{
+    border: 1px solid black;
+}
+
+.container-login{
+    display: flex;
+justify-content: center;
+
+
+}
+.list-items-log{
+    display: flex;
+    flex-direction: column;
+    
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+#login,#search,#signin{
+    display: none;
+    
+}
+#point{
+    cursor:pointer;
+}
+#login,#signin{
+    position:relative;
+    
+}
+#part1{
+    position:relative;
+    top: 360px;
+}
+ #policy{
+    display: flex;
+ }
+ #policy div a{
+    flex-direction: column;
+    text-decoration: none;
+ }
+ #footsymbol a {
+    font-size: x-large;
+ }
+
+.search{
+    cursor:pointer;
+}
